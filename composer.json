@@ -1,0 +1,17 @@
+{
+    "require": {
+        "php": ">=8.2",
+        "ext-yaml": "*",
+        "league/commonmark": "*",
+        "spatie/commonmark-highlighter": "*",
+        "nesbot/carbon": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pico\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
